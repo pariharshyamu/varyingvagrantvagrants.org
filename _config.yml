@@ -20,7 +20,16 @@ exclude:
   - Gemfile*
   - LICENCE
 github_repository_url: "https://github.com/Varying-Vagrant-Vagrants/varyingvagrantvagrants.org"
+sites:
 
+  .... other sites...
+
+  example:
+    repo: https://github.com/Varying-Vagrant-Vagrants/custom-site-template.git
+    hosts:
+      - example.test
+
+  .... other sites...
 
 # ----
 # Site
